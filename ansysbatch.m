@@ -1,7 +1,7 @@
 function ansysbatch(working_path, ansys_path, np, jobname, mainMAC)
 	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    % Created by Haopeng Duan, 2023/04/11, https://www.hpduan.cn
-    %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% Created by Haopeng Duan, 2023/04/11, https://www.hpduan.cn
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 	%...................................................
 	input_mac = strcat(working_path, '\', mainMAC);
 	output_file = strcat(working_path, '\', 'ans.out');
